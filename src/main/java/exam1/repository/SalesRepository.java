@@ -12,7 +12,7 @@ import java.util.List;
 public class SalesRepository {
     final static String DB_URL = "jdbc:derby://localhost:1527/Fall2020S1";
     final static String SQL = "SELECT PURCHASEMONTH, PRICEPAID "
-                            + "FROM DEVELOPER.SALESBYMONTH";
+                                + "FROM DEVELOPER.SALESBYMONTH";
 
     public List<MonthlySales> findAll() {
         List<MonthlySales> salesList = new ArrayList<>();
